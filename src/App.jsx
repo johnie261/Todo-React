@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import InputTask from './components/Input'
+import Header from './components/Header'
+import TodoContainer from './components/TodoContainer'
 
 function App() {
 
   return (
-    <h2>delete</h2>
+    <section className="container">
+      <div className="wrapper">
+        <Header />
+        <TodoContainer />
+      </div>
+    </section>
   )
 }
 
