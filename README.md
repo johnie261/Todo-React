@@ -9,9 +9,8 @@ a simple HTML list of To Do tasks
 ### Tech Stack:
 - HTML. 
 - CSS.
-- Javascript ES6.
-- Webpack
-- Webpack dev server 
+- Javascript.
+- React
 
 ### Server:
 - local.
@@ -21,14 +20,13 @@ a simple HTML list of To Do tasks
 # Key Features:
 - HTML5 semantics.
 - CSS3.
-- Javascript, ES6.
-- Webpack and webpack dev server
+- Javascript,
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Here you can see the live demo of my project:
 
-- [Live Demo Link](https://johnie261.github.io/to-do-list/dist/)
+<!-- - [Live Demo Link](https://johnie261.github.io/to-do-list/dist/) -->
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
@@ -84,16 +82,16 @@ Track CSS linter errors run:
 ```
 npx stylelint "**/*.{css,scss}"
 ```
-Track JavaScript linter errors run:
+Track React linter errors run:
 ```
-npx eslint .
+npx eslint "**/*.{js,jsx}"
 ```
 To run the project:
 
 ```
 npm install --save-dev webpack-dev-server
 
-npm start
+npm run dev
 ```
 
 # Deployment:
