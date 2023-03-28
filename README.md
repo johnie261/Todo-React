@@ -26,7 +26,7 @@ a simple HTML list of To Do tasks
 
 > Here you can see the live demo of my project:
 
-<!-- - [Live Demo Link](https://johnie261.github.io/to-do-list/dist/) -->
+ - [Live Demo Link](todos-react-ap.netlify.app) 
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
@@ -96,7 +96,7 @@ npm run dev
 
 # Deployment:
 ### You can deploy this project using:
-- Github pages.
+- netlify
 
 # 👥 Authors:
 ### 👤 Johnie:
