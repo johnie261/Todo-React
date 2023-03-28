@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { FaPlusCircle } from 'react-icons/fa';
+
 /* eslint-disable react/prop-types */
 const InputTask = ({ addTodoItem }) => {
   const [task, setTask] = useState('');
@@ -20,6 +22,11 @@ const InputTask = ({ addTodoItem }) => {
     <>
       <form onSubmit={handleSubmit} className="form-container">
         <input type="text" value={task} onChange={handleChange} placeholder="Add todo.." className="input" />
+        <button type="button" className="input-submit">
+          {' '}
+          <FaPlusCircle />
+          {' '}
+        </button>
       </form>
       <span className="warning">{message}</span>
     </>
