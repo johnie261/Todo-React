@@ -26,7 +26,7 @@ a simple HTML list of To Do tasks
 
 > Here you can see the live demo of my project:
 
- - [Live Demo Link](todos-react-ap.netlify.app) 
+ - [Live Demo Link](https://reactjs-todo-pp.netlify.app/) 
 
 # 💻 Getting Started:
 ### To get a local copy up and running, follow these steps:
